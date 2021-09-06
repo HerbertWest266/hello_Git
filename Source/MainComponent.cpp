@@ -66,7 +66,7 @@ void MainComponent::paint (juce::Graphics& g)
 
     g.setFont (juce::Font(32.0f));
     g.setColour(juce::Colours::black);
-    g.drawText("Hello Git", getLocalBounds(), juce::Justification::centred, true);
+    g.drawText("Hello Git", getLocalBounds(), juce::Justification::centredLeft, true);
 }
 
 void MainComponent::resized()
