@@ -64,8 +64,8 @@ void MainComponent::paint (juce::Graphics& g)
     // (Our component is opaque, so we must completely fill the background with a solid colour)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
-    g.setFont (juce::Font(16.0f));
-    g.setColour(juce::Colours::white);
+    g.setFont (juce::Font(32.0f));
+    g.setColour(juce::Colours::black);
     g.drawText("Hello Git", getLocalBounds(), juce::Justification::centred, true);
 }
 
